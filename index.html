@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"><br><br>
+  <title>Ludo hacks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="go1.png" alt="ludo hacks"></a>
+      <ul>
+        <li><a href="#HOME">HOME</a></li>
+        <li><a href="tr.html">LOGIN</a></li>
+        <li><a href="ser.html">SERVICES</a></li>
+        <li><a href="cont.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="hero">
+    <div class="hero-content">
+      <h1>LUDO HACKS</h1>
+      <p style="font-size:30px;">We provide innovative solutions and earning money in short period of time</p>
+      <a href="#contact" class="btn">Get Started</a><br><br>
+    <marquee style="background-color: beige; color: brown; font-size: 50px;">63XXXXXX09 purchased 3Months plan***94XXXXXX67 purchased 12Months plan***94XXXXXX25 purchased 3Months plan***92XXXXXX09 purchased 6Months plan***97XXXXXX24 purchased 12Months plan***86XXXXXX67 purchased 6Months plan***63XXXXXX09 purchased 3Months plan***96XXXXXX45 purchased 3Months plan***84XXXXXX32 purchased 6Months plan***92XXXXXX08 purchased 12Months plan</marquee>
+    </div>
+  </section> 
+  <div class="slideshow-container">
+    <div class="slide">
+      <img src="lodoha.jpg" alt="Scoring Image 1">
+    </div>
+    <div class="slide">
+      <img src="lodotips.jpg" alt="Scoring Image 2">
+    </div>
+    <div class="slide">
+      <img src="unlimit.jpg" alt="Scoring Image 3">
+    </div>
+  </div>
+  <div class="slideshow-navigation">
+    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+  </div>
+  <section id="about">
+    <div class="content">
+      <h2>About Us</h2>
+      <p style="color: darkred;font-size: 25px;">" With this hack version of ludo king you will definitely get unlimited 6 and other numbers.<br>Dice is completely hacked and you will get unlimited 6 in every match.<br>With this hack,you are not only going to win every match but also can earn unlimited money towards your opponent"-Admin </p>
+    </div>
+  </section>
+  <section id="services">
+    <div class="content">
+      <h2>Our Services</h2>
+      <ul>
+        <li>For 3 Months plan 500/- </li>
+        <li>For 6 Months plan 1000/- </li>
+        <li>For 12 Months plan 1500/- </li>
+      </ul>
+    </div>
+    <a href="https://forms.gle/548ynNzbSe8naUpUA" style="font-size: 18px;">Register</a>
+</section>
+  <section id="contact">
+    <div class="content">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2023 lUDO PLAYERS. All rights reserved.</p>
+  </footer>
+  <script>
+    // JavaScript code goes here
+    let slideIndex = 0;
+    showSlide(slideIndex);
+
+    function changeSlide(n) {
+      showSlide(slideIndex += n);
+    }
+
+    function showSlide(n) {
+      const slides = document.getElementsByClassName("slide");
+
+      if (n >= slides.length) {
+        slideIndex = 0;
+      } else if (n < 0) {
+        slideIndex = slides.length - 1;
+      }
+
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+
+      slides[slideIndex].style.display = "block";
+    }
+  </script>
+</body>
+</html>
